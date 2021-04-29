@@ -1,0 +1,14 @@
+{
+  "author": "rasetiansyah",
+  "name": "Deno RESTful API",
+  "description": "BackEnd",
+  "main": "index.js",
+  "scripts": {
+    "serve": {
+      "cmd": "deno run index.js",
+      "desc": "denoland restapi",
+      "allow": ["env", "net", "write", "read", "plugin"],
+      "unstable": true
+    }
+  }
+}
