@@ -1,6 +1,6 @@
 # Deno
 
-<img align="right" src=src/assets/images/denoland.png height="150px">
+<img align="right" src=src/public/assets/images/denoland.png height="150px">
 
 Deno is a _simple_, _modern_ and _secure_ runtime for **JavaScript** and
 **TypeScript** that uses V8 and is built in Rust.
