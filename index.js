@@ -8,7 +8,7 @@ import api from "./src/routes/api.js";
 
 /*
 |--------------------------------------------------------------------------
-| deno.land
+| deno.land 1.0.2 additional request validation
 |--------------------------------------------------------------------------
 |
 | Author    : rasetiansyah
@@ -54,7 +54,7 @@ try {
   console.log(`connection to database failed, ${error}`);
 }
 const db = client.database(Deno.env.get("DB_DATABASE"));
-const user = db.collection("users");
+const user = db.collection("users", { unique: true });
 
 export { Bson, db, user };
 
